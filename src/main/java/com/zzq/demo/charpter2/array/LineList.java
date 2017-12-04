@@ -1,7 +1,7 @@
 package com.zzq.demo.charpter2.array;
 
 /**
- * Created by 332406 on 2017-11-16.
+ * Created by yhsyzzq on 2017-11-16.
  */
 public class LineList {
 
@@ -84,7 +84,7 @@ public class LineList {
             }
             elementData[i-1] = e;
         }
-        return null;
+        return e;
     }
 
     /**

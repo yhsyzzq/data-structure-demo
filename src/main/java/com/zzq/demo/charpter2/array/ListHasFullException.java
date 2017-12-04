@@ -1,7 +1,7 @@
 package com.zzq.demo.charpter2.array;
 
 /**
- * Created by 332406 on 2017-11-16.
+ * Created by yhsyzzq on 2017-11-16.
  */
 public class ListHasFullException extends Exception {
     public ListHasFullException(String msg) {
