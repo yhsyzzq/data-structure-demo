@@ -3,7 +3,7 @@ package com.zzq.demo.charpter4;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * Created by 332406 on 2017-12-05.
+ * Created by yhsyzzq on 2017-12-05.
  */
 public class Consumer implements Runnable {
     private final BlockingQueue queue;
