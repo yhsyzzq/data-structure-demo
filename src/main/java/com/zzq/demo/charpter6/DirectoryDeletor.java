@@ -18,7 +18,7 @@ public class DirectoryDeletor {
     //每次删除的数量  是100
     public static boolean first=true;
     public static void main(String[] args) {
-        File file = new File("D:\\dpap_v2.0.1\\workspaces\\dg\\dg-web\\target");
+        File file = new File("D:\\dpap_v2.0.1\\workspaces\\dg-branch");
         try {
             long firstTime=System.currentTimeMillis();
             while(true){

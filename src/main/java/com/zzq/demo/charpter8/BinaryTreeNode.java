@@ -21,6 +21,11 @@ public class BinaryTreeNode {
      */
     private BinaryTreeNode rightChild;
 
+    /**
+     * 平衡因子
+     */
+    private int bf;
+
     public BinaryTreeNode(int data) {
         this.data = data;
     }
@@ -49,4 +54,11 @@ public class BinaryTreeNode {
         this.rightChild = rightChild;
     }
 
+    public int getBf() {
+        return bf;
+    }
+
+    public void setBf(int bf) {
+        this.bf = bf;
+    }
 }
